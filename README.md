@@ -38,7 +38,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 ## mysql --->   
 ## DATABASE_URL="mysql://root:root@localhost:3306/quioscoapp"
-
+## DATABASE_URL="mysql://root:qYt9zq83rpseMD4Tp5wX@containers-us-west-46.railway.app:7303/railway"
 
 
 ## tailwind
