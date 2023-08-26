@@ -3,8 +3,12 @@
 import { PrismaClient } from "@prisma/client"
 
 export default async function handler(req, res) {
-  const prisma = new PrismaClient()
-  const productos = await prisma.producto.findMany()
+  try {
+    const prisma = new PrismaClient()
+    const productos = await prisma.producto.findMany()
 
-  res.status(200).json(productos)
+    res.status(200).json(productos)
+  } catch (error) {
+    console.log(error);
+  }
 }
